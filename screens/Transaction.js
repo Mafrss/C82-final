@@ -170,7 +170,7 @@ export default class TransactionScreen extends Component {
         studentId: ""
       });
       isStudentEligible = false;
-      Alert.alert("O id do aluno não existe no banco de dados!");
+      Alert.alert("O id do aluno não existe no banco de dados da biblioteca!");
     } else 
     {
       studentRef.docs.map(doc => {
